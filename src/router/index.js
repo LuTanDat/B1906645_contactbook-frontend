@@ -7,11 +7,11 @@ const routes = [
         name: "contactbook",
         component: ContactBook,
     },
-    // {
-    //     path: "/contacts/",
-    //     name: "contact.add",
-    //     component: () => import("@/views/ContactAdd.vue"),
-    // },
+    {
+        path: "/contacts/",
+        name: "contact.add",
+        component: () => import("@/views/ContactAdd.vue"),
+    },
     {
         path: "/contacts/:id",
         name: "contact.edit",
